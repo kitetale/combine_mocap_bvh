@@ -18,6 +18,13 @@ For each character that I downloaded from SketchFab, I made my own IK handles an
 ![zombie walk cycle gif](./walkcycle2.gif)
 ![zombie walk cycle gif](./walkcycle2_front.gif)
 
+### IK Process ###
+
+![robot arm IK move gif](./arm_IK.gif)
+![robot leg IK move gif](./foot_IK.gif)
+
+![zombie arm IK move gif](./arm_IK_zombie.gif)
+![zombie leg IK move gif](./leg_IK_zombie.gif)
 
 Resources: <br/>
 * [Robot by Willy Decarpentrie](https://sketchfab.com/3d-models/biped-robot-801d2a245e4a4405a0c2152b35b5e486)
