@@ -16,6 +16,9 @@ Resources: <br/>
 
 ## Part 2 : MoCap Editing ##
 This part is based on the [start code for miniproject 1](https://github.com/yangyanzhe/assignment1). 
+
+The code can be run by downloading this repo and running `python3 main.py` in terminal. If you have specific bvh files you'd like to combine or have specific destination location for the output to be saved, you can use the optional `--src_path1 SRC1 --src_path2 SRC2 --dst_path DST` flags to indicate them.
+
 I made five modified functions of `load` function:
 
 * `loadTop` : This function sets joints in the bottom half of the body to have offest of (0,0,0) so that any translation or rotation shows in the rendering.
