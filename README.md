@@ -8,6 +8,17 @@ The first is a slightly excited robot semi-dashing over, and the second is an ol
 
 For each character that I downloaded from SketchFab, I made my own IK handles and animated the entire walkcycle from start to the end. 
 
+### Walk Cycle 1 : ###
+
+![robot walk cycle gif](./walkcycle1.gif)
+![robot walk cycle gif](./walkcycle1_front.gif)
+
+### Walk Cycle 2 : ###
+
+![zombie walk cycle gif](./walkcycle2.gif)
+![zombie walk cycle gif](./walkcycle2_front.gif)
+
+
 Resources: <br/>
 * [Robot by Willy Decarpentrie](https://sketchfab.com/3d-models/biped-robot-801d2a245e4a4405a0c2152b35b5e486)
 * [Zombie by DJMaesen](https://sketchfab.com/3d-models/zombie-25c230a1e2f2462fa3de298fc8bca30a)
@@ -28,8 +39,8 @@ I made five modified functions of `load` function:
 * `loadTwo` : Taking in two file addresses, this function reads both and combines upper half motion of the body from the first file and lower half motion from the second file. I initially tried to load two animations via `load` then combine the two animation objects (attempt in `combine` function), but I couldn't figure out the translation conflict between Euler rotation in BVH file to Quaternion rotation in Animation object. Instead, I wrote `loadTwo` to combine the data of upper and lower halves of the body from two BVH files.
 
 <br/>
-Example Edit Combination: <br/><br/>
 
+### Example Edit Combination: ### 
 
 ![mocap edit example](./mocap_edit.gif)
 
